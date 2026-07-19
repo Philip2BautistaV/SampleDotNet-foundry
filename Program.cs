@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "AIML in main");
+app.MapGet("/", () => "AIML in main on Sunday");
 
 app.Run();
